@@ -11,17 +11,7 @@ div{
     margin-right: 0;
 }
 
-#nombre{
-    font-weight: bold;
-    margin-top: 30%;
-    text-align: center;
-}
-
-#titulo{
-    text-align: center;
-}
-
-@media (min-width: 576px){
+@media (min-width: 353px){
     #fotoperfil{
         position: absolute;
         width: 15%;
@@ -29,11 +19,23 @@ div{
         box-shadow: 3px 3px 3px grey;
         left: 3%;
         top: 300px;
-    
     }    
+
+    #nombre{
+        font-weight: bold;
+        margin-top: 50%;
+        text-align: center;
+        margin-left: 20%;
+    }
+    
+    #titulo{
+        text-align: center;
+        margin-top: -20px;
+        margin-left: 20%;
+    }
 }
 
-@media (max-width: 767px){
+@media (max-width: 580px){
     #fotoperfil{
         position: absolute;
         width: 30%;
@@ -47,10 +49,12 @@ div{
         font-weight: bold;
         margin-top: 15%;
         text-align: center;
+        margin-left: 0%;
     }
     
     #titulo{
         text-align: center;
+        margin-left: 0%;
     }
 
 

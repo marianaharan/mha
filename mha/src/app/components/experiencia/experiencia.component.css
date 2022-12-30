@@ -18,6 +18,6 @@ ul{
 
 #tit{
     color: rgb(153, 131, 83);
-    text-decoration: underline;
-    text-decoration-color: rgb(153, 131, 83);
+    font-style: italic;
+    font-weight: bolder;
 }

@@ -5,7 +5,7 @@
 }
 
 div{
-    background-color: rgb(248, 225, 175);
+    background-color: rgb(238, 209, 146);
 }
 
 h1, h3{
@@ -18,6 +18,6 @@ ul{
 
 #tit{
     color: rgb(153, 131, 83);
-    text-decoration: underline;
-    text-decoration-color: rgb(153, 131, 83);;
+    font-style: italic;
+    font-weight: bolder;
 }
