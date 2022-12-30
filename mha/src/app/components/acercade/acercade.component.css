@@ -1,0 +1,58 @@
+.row{
+    padding-right: 0;
+    margin-right: 0;
+    padding: 20px;
+}
+
+div{
+    background-color: rgb(201, 179, 131);
+    text-align: left;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+    text-align: center;
+}
+
+#titulo{
+    text-align: center;
+}
+
+@media (min-width: 576px){
+    #fotoperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 300px;
+    
+    }    
+}
+
+@media (max-width: 767px){
+    #fotoperfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top: 300px;
+    }
+
+    #nombre{
+        font-weight: bold;
+        margin-top: 15%;
+        text-align: center;
+    }
+    
+    #titulo{
+        text-align: center;
+    }
+
+
+}
+

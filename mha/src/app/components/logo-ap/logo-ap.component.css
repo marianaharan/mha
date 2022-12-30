@@ -8,24 +8,78 @@ justify-content: space-between;
 align-items: center;
 }
 
+.redes img{
+    margin: 3px;
+}
+
+.redes button{
+    margin: 3px;
+}
+
 #logoap{
     width: 150px;
 }
 #twitter{
-    width: 50px;
+    width: 42px;
 }
 #linkedin{
-    width: 50px;
+    width: 42px;
 }
 #facebook{
-    width: 50px;
+    width: 42px;
 }
 #github{
-    width: 50px;
+    width: 42px;
 }
 #instagram{
-    width: 50px;
+    width: 42px;
 }
 .btn{
     border-width: 2.9px;
+}
+
+/* PARA VISTA DE CELULAR */
+
+@media (max-width:575px){
+    .row{
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .redes img{
+        margin: 2px;
+    }
+    
+    .redes button{
+        margin: 2px;
+    }
+    
+    #logoap{
+        width: 100px;
+    }
+    #twitter{
+        width: 30px;
+    }
+    #linkedin{
+        width: 30px;
+    }
+    #facebook{
+        width: 30px;
+    }
+    #github{
+        width: 30px;
+    }
+    #instagram{
+        width: 30px;
+    }
+    .btn{
+        border-width: 1.8px;
+        line-height: 98%;
+        font-size: small;
+    }    
 }
